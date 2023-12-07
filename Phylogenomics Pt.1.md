@@ -35,8 +35,8 @@ CaNRC_NBARC <- readAAStringSet("/path/to/Ca_NRC_NBARC.fasta")
 Now import the domain output from NLRtracker and extract the NLRs and other required data:
 ```R
 ## import the sequences
-# Set working directory to where you download the NLRtracker outputs
-setwd("/path/to//NLRtracker")
+# Set the working directory to where you download the NLRtracker outputs
+setwd("/path/to/NLRtracker")
 
 # Make a function to add the file name to the proteins
 read_delim_name <- function(flnm) {
@@ -78,8 +78,8 @@ NBARC_meta_filtered_seq <- AAStringSet(NBARC_meta_filterd$sequence)
 NBARC_meta_filtered_seq@ranges@NAMES <- NBARC_meta_filterd$seqname
 
 
-writeXStringSet(NBARC_meta_filtered_seq, "/path/to//NBARC_seq.csv")
-writeXStringSet(NLR_meta_filtered_seq, "/path/to//NLR_seq.csv")
+writeXStringSet(NBARC_meta_filtered_seq, "/path/to/NBARC_seq.csv")
+writeXStringSet(NLR_meta_filtered_seq, "/path/to/NLR_seq.csv")
 
 
 # merge the sequences with reference sequences
@@ -95,18 +95,17 @@ NBARC_ref_seq_filtered <- NBARC_ref_seq[NBARC_ref_seq@ranges@width > 300] # remo
 NBARC_ref_seq_filtered <- NBARC_ref_seq_filtered[NBARC_ref_seq_filtered@ranges@width < 400] # remove anything longer than 400 amino acids
 
 
-# export the NBARC file to align and make phylogenetic tree
+# export the NBARC file to align and make a phylogenetic tree
 
 writeXStringSet(NBARC_ref_seq, "/path/to/NBARC_ref_hero.fasta")
 writeXStringSet(NBARC_ref_seq_filtered, "/path/to/NBARC_ref_hero_filtered.fasta")
-```
 
 Using the exported NBARC sequences we make a tree with the following two steps:
 ```bash
 # alignment
 mafft --anysymbol NBARC_ref_hero.fasta > NBARC_ref_hero.fasta.afa
 
-# tree construnction
+# tree construction
 FastTree -lg NBARC_ref_hero.afa > NBARC_ref_hero_lg.newick
 ```
 
