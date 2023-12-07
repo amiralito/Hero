@@ -1,4 +1,4 @@
-The phylogenetic trees extracted in each step in the previous [part](Phylogenomics_Pt.2.md) are exported in R and are used to extract the sequences belonging to each clade. The sequences are then exported to be realigned and generate the next phylogenetic trees:
+The phylogenetic trees extracted in each step in the [previous part](Phylogenomics_Pt.2.md) are exported in R and are used to extract the sequences belonging to each clade. The sequences are then exported to be realigned and generate the next phylogenetic trees:
 
 NRC Superclade:
 ```R
