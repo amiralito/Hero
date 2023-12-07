@@ -19,4 +19,4 @@ Hero Clade:
 
 
 
-* Phylogenetic trees marked as "_i2.newick" in *data*(data) are based on the realigned sequences.
+* Phylogenetic trees marked as "_i2.newick" in *data*(Hero/data) are based on the realigned sequences.
