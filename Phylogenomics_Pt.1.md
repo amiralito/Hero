@@ -99,6 +99,7 @@ NBARC_ref_seq_filtered <- NBARC_ref_seq_filtered[NBARC_ref_seq_filtered@ranges@w
 
 writeXStringSet(NBARC_ref_seq, "/path/to/NBARC_ref_hero.fasta")
 writeXStringSet(NBARC_ref_seq_filtered, "/path/to/NBARC_ref_hero_filtered.fasta")
+```
 
 Using the exported NBARC sequences we make a tree with the following two steps:
 ```bash
