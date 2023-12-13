@@ -9,6 +9,11 @@ Software                            | Source
 *Dendroscope v3.8.8*                | (https://software-ab.cs.uni-tuebingen.de/download/dendroscope3/welcome.html)
 *R v4.3.1*                          | (https://cran.r-project.org/)
 *NLRtracker*                        | (https://github.com/slt666666/NLRtracker)
+*HISAT2 v2.1.0*                     | 
+*STRINGTIE2 v2.1.1*                 | 
+*SAMtools v1.12*                    |
+*GFFcompare v0.11.6*                |
+*python v3.7.2*                     |
 
 R packages:
 ```R
