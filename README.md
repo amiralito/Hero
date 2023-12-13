@@ -9,11 +9,11 @@ Software                            | Source
 *Dendroscope v3.8.8*                | (https://software-ab.cs.uni-tuebingen.de/download/dendroscope3/welcome.html)
 *R v4.3.1*                          | (https://cran.r-project.org/)
 *NLRtracker*                        | (https://github.com/slt666666/NLRtracker)
-*HISAT2 v2.1.0*                     | 
-*STRINGTIE2 v2.1.1*                 | 
-*SAMtools v1.12*                    |
-*GFFcompare v0.11.6*                |
-*python v3.7.2*                     |
+*HISAT2 v2.1.0*                     | (https://daehwankimlab.github.io/hisat2/)
+*STRINGTIE2 v2.1.1*                 | (https://github.com/gpertea/stringtie/releases)
+*SAMtools v1.12*                    | (https://github.com/samtools/samtools/releases/)
+*GFFcompare v0.11.6*                | (https://github.com/gpertea/gffcompare/releases)
+*python v3.7.2*                     | (https://www.python.org/downloads/release/python-372/)
 
 R packages:
 ```R
