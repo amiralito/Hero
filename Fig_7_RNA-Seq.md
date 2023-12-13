@@ -98,10 +98,8 @@ write.csv(table_counts_normalized, file = "/path/to/folder/gene_count_matrix_nor
 
 # Write the DESeq results to a CSV file
 write.csv(res, file = "/path/to/folder/gene_count_matrix_DeSeq2.csv", row.names = TRUE)
-write.csv(res05, file = "/path/to/folder/gene_count_matrix_DeSeq2_05.csv", row.names = TRUE)
 
 #subsetting with partial ID match from provided .csv list with no header
-
 # Read in and assign to variable for All_NLRs
 All_NLRs <- read.csv("/path/to/folder/All_NLRs.csv", header = FALSE)
 ALL_NLRs_sub <- c(All_NLRs$V1)
