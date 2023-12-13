@@ -1,6 +1,6 @@
 # RNA-Seq pipeline
 
-create transcriptome index for HISAT2:
+Create transcriptome index for HISAT2:
 
 ```bash
 hisat2-build -p 16 /path/to/genome/assembly/file.fasta /output/path/to/index/file
