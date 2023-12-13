@@ -74,7 +74,7 @@ all(rownames(colData) == colnames(countData))
 dds <- DESeqDataSetFromMatrix(countData = countData, colData = colData, design = ~ tissue)
 ```
 
-Run the default analysis for DESeq2"
+Run the default analysis for DESeq2:
 ```R
 # This step estimates size factors, dispersions, and fits the negative binomial GLM
 dds <- DESeq(dds)
