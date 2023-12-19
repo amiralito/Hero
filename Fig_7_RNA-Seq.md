@@ -9,7 +9,7 @@ hisat2-build -p 16 /path/to/genome/assembly/file.fasta /output/path/to/index/fil
 Use HISAT2 to align reads pairs:
 
 ```bash
-hisat2 -q -p 16 --pen-canintronlen G,-8,1 --pen-noncanintronlen G,-8,1 --no-mixed --no-discordant --dta -x path/to/index/file -1 /path/to/first/readpair/file.fq -2 /path/to/second/readpair/file.fq -S output.sam
+hisat2 -q -p 16 --pen-canintronlen G,-8,1 --pen-noncanintronlen G,-8,1 --no-mixed --no-discordant --dta -x path/to/index/file -1 /path/to/first/readpair/file_1.fq -2 /path/to/second/readpair/file_2.fq -S output.sam
 ```
 
 Use samtools to convert .sam to .bam, sort, and index:
