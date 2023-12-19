@@ -51,9 +51,9 @@ writeXStringSet(NRC_Hero_NBARC_seq, "/path/to/NRC_SD_Hero_NBARC.fasta")
 NRC6 Clade:
 ```R
 # import the NRC6 clade
-NRC6_tree <- read.tree("~/Desktop/NRC6_hero/analysis/phylogeny/NRC6.tree")
+NRC6_tree <- read.tree("/path/to/NRC6.tree")
 ```
-No new trees were made for this clade.
+No new trees are made for this clade.
 
 
 
