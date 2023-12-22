@@ -1,4 +1,4 @@
-NLR annotations from the ITAG3.2 and RefSeq SL3.0 gff3 files using NLRtracker
+NLR annotations from the ITAG3.2 and RefSeq SL3.0 gff3 files using "NLRtracker"
 ```bash
 # NLR annotation
 # ITAG3.2_proteins.fasta ... https://solgenomics.net/ftp/genomes/Solanum_lycopersicum/annotation/ITAG3.2_release/ITAG3.2_proteins.fasta
@@ -21,7 +21,7 @@ mafft --anysymbol Tomato_ITAG3.2_with_RefSeq.fasta > Tomato_ITAG3.2_with_RefSeq_
 raxmlHPC-PTHREADS-AVX2 -# 100 -f a -x 1024 -m PROTGAMMAAUTO -s Tomato_ITAG3.2_with_RefSeq_NBARC_alignment.fasta -p 121 -n Tomato_ITAG3.2_with_RefSeq
 ```
 
-Construct distance matrix by gene_cluster_matrix
+Construct distance matrix using python library "gene_cluster_matrix"
 ```bash
 # NLR_positions.csv ... positions of NLRs from gff files; GCF_000188115.5_SL3.1_genomic.gff & ITAG3.2_gene_models.gff
 # NLR_clade.csv ... clade information defined based on phylogenetic tree
