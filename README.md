@@ -9,6 +9,7 @@ Software                            | Source
 *Dendroscope v3.8.8*                | (https://software-ab.cs.uni-tuebingen.de/download/dendroscope3/welcome.html)
 *R v4.3.1*                          | (https://cran.r-project.org/)
 *NLRtracker*                        | (https://github.com/slt666666/NLRtracker)
+*gene_cluster_matrix v0.1.4*        | (https://github.com/slt666666/gene-cluster-matrix)
 *HISAT2 v2.1.0*                     | (https://daehwankimlab.github.io/hisat2/)
 *STRINGTIE2 v2.1.1*                 | (https://github.com/gpertea/stringtie/releases)
 *SAMtools v1.12*                    | (https://github.com/samtools/samtools/releases/)
