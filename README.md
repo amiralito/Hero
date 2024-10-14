@@ -1,4 +1,7 @@
+[![DOI](https://img.shields.io/badge/bioRxiv-doi.org/10.1101/2023.12.14.571630-BE2634.svg)](https://doi.org/10.1101/2023.12.14.571630)
+
 # Supporting scripts and data for "A root-specific NLR network confers resistance to plant parasitic nematodes"
+Daniel Luedke, Toshiyuki Sakai, Jiorgos Kourelis, AmirAli Toghani, Hiroaki Adachi, Andres Posbeyikian, Raoul Frijters, Hsuan Pai, Adeline Harant, Karin Ernst, Martin Ganal, Adriaan Verhage, Chih-Hang Wu, Sophien Kamoun
 
 Resources:
 
